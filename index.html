@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Auditor Independen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Open Sans', sans-serif;
+        }
+        body {
+            font-size: 20px;
+            margin: 0;
+            padding: 24px 16px;
+            background: #c1c1c1;
+            color: #000000;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 90%;
+            margin: 0 auto;
+            padding: 32px 24px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        h2, h3 {
+            text-align: center;
+            margin: 0 0 4px 0;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 0.3px;
+            color: #000000;
+            line-height: 0.9; 
+        }
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 20px 0;
+            color: #000000;
+        }
+        .data-list {
+            list-style: none;
+            padding: 0;
+            margin: 28px 0;
+        }
+        .data-list li {
+            margin-bottom: 14px;
+            display: flex;
+            font-size: 14px;
+            line-height: 1.5;
+            align-items: flex-start;
+        }
+        .data-list .label {
+            flex: 0 0 auto;
+            width: 200px; /* Increased from 180px to accommodate longer text */
+            padding-right: 0;
+            font-weight: 500;
+            color: #000000;
+            white-space: nowrap; /* Prevent text wrapping */
+        }
+        .data-list .separator {
+            flex: 0 0 auto; /* Prevent separator from stretching */
+            width: 20px; /* Fixed width for separator */
+            text-align: center; /* Center the colon */
+            padding: 0; /* Remove padding */
+            color: #000000;
+        }
+        .data-list .value {
+            flex: 1;
+            color: #000000;
+        }
+        .disclaimer {
+            margin: 24px 0;
+            padding: 16px 0;
+            font-size: 13px;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            font-style: italic;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 28px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .contact-info a {
+            color: #000000;  
+            text-decoration: none;
+            padding: 2px 4px;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .contact-info a[href^="tel"] {
+            color: #000000;
+        }
+        .contact-info a[href^="mailto"] {
+            color: #0066cc;
+        }
+        .footer-note {
+            text-align: center;
+            margin-top: 28px;
+            font-size: 12px;
+            color: #000000;
+            font-style: italic;
+        }
+        .header-separator {
+            border-bottom: 2px solid #333;
+            margin: 16px 0;
+            opacity: 0.8;
+            width: 100%;
+        }
+
+        @media screen and (max-width: 480px) {
+            .data-list li {
+                flex-direction: column;
+                margin-bottom: 20px;
+            }
+            .data-list .label {
+                min-width: 100%;
+                margin-bottom: 4px;
+                font-weight: 700;
+            }
+            .data-list .separator {
+                display: none;
+            }
+            .data-list .value {
+                padding-left: 20px;
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            .container {
+                max-width: 750px;
+            }
+            body {
+                padding: 32px 24px;
+            }
+            h2, h3 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .data-list li {
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            .container {
+                max-width: 900px;
+            }
+            body {
+                padding: 48px 32px;
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            .container {
+                max-width: 1000px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>KEMENTERIAN KEUANGAN REPUBLIK INDONESIA</h2>
+        <h3>SEKRETARIAT JENDERAL</h3>
+        <h3>PUSAT PEMBINAAN PROFESI KEUANGAN</h3>
+        <div class="header-separator"></div>
+
+        <p>Laporan Auditor Independen <strong><em>telah terdaftar</em></strong> pada aplikasi Pelita di Pusat Pembinaan Profesi Keuangan dengan informasi sebagai berikut:</p>
+
+        <ul class="data-list">
+            <li>
+                <div class="label">A. Nama KAP</div>
+                <div class="separator">:</div>
+                <div class="value">Heliantono & Rekan</div>
+            </li>
+            <li>
+                <div class="label">B. Nama Klien</div>
+                <div class="separator">:</div>
+                <div class="value"> PT. Gemilang Kencana Nawasena</div>
+            </li>
+            <li>
+                <div class="label">C. Periode</div>
+                <div class="separator">:</div>
+                <div class="value">01/01/2024 s/d 31/12/2024</div>
+            </li>
+            <li>
+                <div class="label">D. No. LAI</div>
+                <div class="separator">:</div>
+                <div class="value">0241/3.0459/AU.2/0469-3/I/X/2025</div>
+            </li>
+            <li>
+                <div class="label">E. Tgl. LAI</div>
+                <div class="separator">:</div>
+                <div class="value">06/10/2025</div>
+            </li>
+            <li>
+                <div class="label">F. AP Penanggung jawab</div>
+                <div class="separator">:</div>
+                <div class="value">Heliantono & Rekan</div>
+            </li>
+            <li>
+                <div class="label">G. Opini</div>
+                <div class="separator">:</div>
+                <div class="value">WDP</div>
+            </li>
+            <li>
+                <div class="label">H. Total Aset</div>
+                <div class="separator">:</div>
+                <div class="value">IDR 15.337.704.905</div>
+            </li>
+            <li>
+                <div class="label">I. Laba/Rugi Bersih</div>
+                <div class="separator">:</div>
+                <div class="value">IDR 517.024.615</div>
+            </li>
+        </ul>
+
+        <div class="disclaimer">
+            <p><i>"Disclaimer: Semua informasi dalam QR Code dibuat oleh KAP yang bersangkutan, PPPK tidak bertanggung jawab atas kesalahan informasi yang disampaikan KAP."</i></p>
+        </div>
+
+        <div class="header-separator"></div>
+        <div class="contact-info">
+            <p><strong>Untuk informasi lebih lanjut silahkan hubungi <a href="tel:+62213505112">(021) 3505112</a> atau email ke <a href="mailto:kemenkeu.prime@kemenkeu.go.id">kemenkeu.prime@kemenkeu.go.id</a></strong></p>
+        </div>
+
+        <div class="footer-note">
+            dibuat oleh sistem pada hari 06 Oktober 2025 jam 16:04:12
+        </div>
+    </div>
+</body>
+</html>
